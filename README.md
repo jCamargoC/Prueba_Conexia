@@ -4,7 +4,7 @@ En este repositorio se encuentra el proyecto para la prueba de ingreso a CONEXIA
 
 Para la instalación del proyecto es necesario seguir los siguientes pasos.
 	
-	1. Se debe ejecutar el script de base de datos script.sql, en un motor de base de datos MySQL 5. Este script realiza la creación del esquema de base de datos de las tablas y hace la inserción de datos paramétricos, tales como clientes, camareros, cocineros y mesas. Se recomienda realizar esta ejecución con el usuario root del motor MySQL
+	1. Se debe ejecutar el script de base de datos script.sql, en un motor de base de datos MySQL 5.5.24 con el motor MyISAM. Este script realiza la creación del esquema de base de datos de las tablas y hace la inserción de datos paramétricos, tales como clientes, camareros, cocineros y mesas. Se recomienda realizar esta ejecución con el usuario root del motor MySQL
 	
 	2. Luego, se debe realizar la configuracion del usuario de conexión a la BD. Para esto, se debe acceder al archivo Mejor_cocina_app/web/src/main/webapp/WEB-INF/cocina-ds.xml y modificar los tags security/user y security/password por las credenciales del usuario root configurado en la instancia de MySQL. Asi mismo se debe configurar el archivo Mejor_cocina_app/web/src/main/resources/META-INF/persistence.xml, para cambiar loas propiedades hibernate.connection.username y hibernate.connection.password con las respectivas credenciales.
 		En caso de ser necesario, se deben cambiar las propiedades de URL de acceso a la base de datos de acuerdo a si la base de datos es local o no.
