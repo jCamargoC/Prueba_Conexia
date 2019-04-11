@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+	<title>La Mejor Cocina</title>
+</h:head>
+<h:body>
+	<p:growl id="growl" showDetail="true" sticky="true" />
+	<p:layout style="min-width:500px;min-height:1000px;">
+		<p:layoutUnit position="west" resizable="true" size="900" minSize="40"
+			maxSize="500">
+			<h:form>
+				<p:panelMenu style="width:290px">
+
+					<p:submenu label="Facturación">
+						<p:menuitem value="Home" action="home" icon="pi pi-home" />
+						<p:menuitem value="Crear factura" action="crearFactura"
+							icon="pi pi-save" />
+					</p:submenu>
+					<p:separator />
+					<p:submenu label="Reportes">
+
+
+						<p:menuitem value="Reporte Camareros"
+							action="reporteCamareros" icon="pi pi-home" />
+						<p:menuitem value="Reporte Clientes"
+							action="reporteClientes" icon="pi pi-file" />
+					</p:submenu>
+				</p:panelMenu>
+			</h:form>
+		</p:layoutUnit>
+
+		<p:layoutUnit position="center">
+			<h1>Restaurante "La mejor Cocina"</h1>
+			<p:contentFlow>
+				<p:graphicImage value="/img/image1.jpg" styleClass="content" />
+				<p:graphicImage value="/img/image2.jpg" styleClass="content" />
+				<p:graphicImage value="/img/image3.jpg" styleClass="content" />
+				<p:graphicImage value="/img/image4.jpg" styleClass="content" />
+				<p:graphicImage value="/img/image5.jpg" styleClass="content" />
+				<p:graphicImage value="/img/image6.jpg" styleClass="content" />
+			</p:contentFlow>
+		</p:layoutUnit>
+	</p:layout>
+
+
+</h:body>
+</html>

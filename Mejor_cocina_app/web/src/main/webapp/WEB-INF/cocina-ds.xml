@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<datasources xmlns="http://www.jboss.org/ironjacamar/schema">
+    <datasource jndi-name="java:jboss/datasources/cocinaDS" pool-name="cocinaDS">
+        <driver>MejorCocinaApp.war_com.mysql.jdbc.Driver_5_1</driver>
+        <connection-url>jdbc:mysql://localhost:3306/mejorcocina?useSSL=false&amp;serverTimezone=UTC</connection-url>
+        <security>
+            <user-name>root</user-name>
+            <password></password>
+        </security>
+    </datasource>
+</datasources>
