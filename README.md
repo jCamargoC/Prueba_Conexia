@@ -21,6 +21,7 @@ Para la instalación del proyecto es necesario seguir los siguientes pasos.
 	
 La visualización de las consultas (Reportes) va cambiando de acuerdo a las facturas que se vayan ingresando.
 
+A continuación el link para la descarga del servidor WILDFLY 16.0.0.Final: https://download.jboss.org/wildfly/16.0.0.Final/wildfly-16.0.0.Final.zip
 		
 		
 		
