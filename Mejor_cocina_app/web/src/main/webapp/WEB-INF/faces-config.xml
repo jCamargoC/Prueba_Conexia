@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
    http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd">
 	<navigation-rule>
-		<from-view-id>/index.xhtml</from-view-id>
+		<from-view-id>index.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>crearFactura</from-outcome>
 			<to-view-id>crearFactura.xhtml</to-view-id>
@@ -23,7 +23,7 @@
 		</navigation-case>
 	</navigation-rule>
 	<navigation-rule>
-		<from-view-id>/crearFactura.xhtml</from-view-id>
+		<from-view-id>crearFactura.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>home</from-outcome>
 			<to-view-id>index.xhtml</to-view-id>
@@ -38,7 +38,7 @@
 		</navigation-case>
 	</navigation-rule>
 	<navigation-rule>
-		<from-view-id>/reporteCamareros.xhtml</from-view-id>
+		<from-view-id>reporteCamareros.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>crearFactura</from-outcome>
 			<to-view-id>crearFactura.xhtml</to-view-id>
@@ -57,7 +57,7 @@
 		</navigation-case>
 	</navigation-rule>
 	<navigation-rule>
-		<from-view-id>/reporteClientes.xhtml</from-view-id>
+		<from-view-id>reporteClientes.xhtml</from-view-id>
 		<navigation-case>
 			<from-outcome>crearFactura</from-outcome>
 			<to-view-id>crearFactura.xhtml</to-view-id>
