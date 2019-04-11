@@ -1,7 +1,0 @@
-com\conexia\mejorcocina\common\Constantes.class
-com\conexia\mejorcocina\ejb\ObjectsServicesEJB.class
-com\conexia\mejorcocina\ejb\interfaces\IObjectsServicesLocal.class
-com\conexia\mejorcocina\dto\CamareroDTO.class
-com\conexia\mejorcocina\ejb\interfaces\IFacturaServicesLocal.class
-com\conexia\mejorcocina\dto\ClienteDTO.class
-com\conexia\mejorcocina\ejb\FacturaServicesEJB.class
